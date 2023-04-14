@@ -1,2 +1,2 @@
 # algorithms
-How to print pattern using C++.
+How to print various types of pyramid patterns using C++.
