@@ -1,21 +1,19 @@
 
-#include<iostream>
+#include <iostream>
 using namespace std;
-int main()
-{
-    int i, space, k=0;
-    for(i=1; i<=6; i++)
-    {
-        for(space=1; space<=(6-i); space++)
-            cout<<"  ";
-        while(k!=(2*i-1))
-        {
-            cout<<"* ";
-            k++;
-        }
-        k=0;
-        cout<<endl;
-    }
-    cout<<endl;
-    return 0;
+int main() {
+	int num = 5;
+	int i, j,space;
+	for (i = 0; i <= num; i += 1)
+	{
+		for (space = num; space > i; space -= 1)
+			cout << " ";
+		for (j = 0; j < i; j += 1) 
+			cout << "* ";
+		
+		
+		cout << endl;
+	}
+	cout << endl;
+	return 0;
 }
