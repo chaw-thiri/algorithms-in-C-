@@ -78,7 +78,7 @@ void quickSort(double unsorted[], int startIdx, int endIdx) {
 
     // one while loop == one num move, all while loop == one recursion == one pass
     // after every recursion the array will be divided into two part and this will continue until one only member is left at the final when the sorting is finished
-    while (leftIdx < rightIdx) { 
+    while (leftIdx <= rightIdx) { 
         // swap positions
         if (unsorted[leftIdx] > unsorted[pivot] && unsorted[rightIdx] < unsorted[pivot]) { 
             // 8 > 7 and 1 < 7 swap 8 and 1 .. 7 1 3 2 8
